@@ -1,0 +1,54 @@
+body
+{
+    background-color: rgb(124, 3, 78);
+    margin: 0 auto;
+    padding: 0;
+}
+
+header
+{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #ne-title
+{
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+main
+{
+    margin-top: 100px;
+}
+
+#ne-main-wrapper
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#ne-main
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 65%;
+    margin-bottom: 100px;
+}
+
+#ne-main p
+{
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    width: 90%;
+}
